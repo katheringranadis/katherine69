@@ -7,6 +7,8 @@ public class katherine69 {
 
     @SuppressWarnings("empty-statement")
     public static void main(String[] args) {
+        int a=1;
+        while(a==1){
         Scanner obj = new Scanner(System.in);
         int opcion;
         System.out.println("elija una opcion de saludo en diferentes idiomas");
@@ -33,10 +35,15 @@ public class katherine69 {
             case 5:
                 System.out.println("Hallo Weeeeeeeeelt");
             break;
+            case 6:
+                System.out.println("SALIENDOOOOO");
+                a=0;
+            break;
             default:
                 System.out.println("elija una opcion valida");
         }  
         
     }
     
+}
 }
